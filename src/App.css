@@ -1,0 +1,30 @@
+.header {
+    /* position: relative;
+    flex-flow: row nowrap;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    min-height: 60px;
+    z-index: 11;
+    padding: 0px 0.3rem; */
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 2px 2px, rgba(0, 0, 0, 0.02) 0px 1px 0px;
+}
+
+/* .header_items {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    list-style: none;
+    height: 60px;
+    margin: 0;
+    justify-content: space-between;
+}
+
+.header_avatar, .header_search {
+    height: 50px;
+    margin-top: -10px;
+} */
+
+.header_close {
+    padding-inline: 0;
+}

@@ -1,0 +1,122 @@
+.row {
+    display: flex;
+    align-items: center;
+}
+  
+.chess {
+    width: 50px;
+    height: 50px;
+    border: black 1px solid;
+    display: flex;
+}
+  
+.black {
+    background-color: black;
+}
+  
+.white {
+    background-color: white;
+}
+
+input {
+    width: 300px;
+    height:50px;
+    border-radius: 10px;
+    font-size:1.1rem;
+    border:none;
+    outline: none;
+    border: 2px solid #707070;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chess_btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+    border: 2px solid #707070;
+    color: #848580;
+}
+
+.chess_btn:hover {
+    cursor: pointer;
+    background-color: #ccc;
+}
+
+.input_cal {
+    height: 60px;
+}
+
+.chess_title {
+    text-align: center;
+    font-size: 30px;
+    margin-left: 20px;
+    color: #848580;
+}
+
+.group_choose_number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.choose_number_text {
+    padding-right: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #848580;
+}
+
+.group_choose_option {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.group_choose_color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px 0;
+    margin-right: 60px;
+}
+
+.input_color {
+    border-radius: 10px;
+}
+
+.chess_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_chess {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 680px;
+    height: 330px;
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid #ccc;
+    margin-bottom: 10px;
+}
+
+/* .wrapper_chessboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */

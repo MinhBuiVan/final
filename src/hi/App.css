@@ -1,0 +1,9 @@
+.wrapper_hi {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    max-width: 30rem;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+}

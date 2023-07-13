@@ -1,0 +1,117 @@
+.wrapper_convert {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    max-width: 800px;
+    /* margin: auto; */
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    padding: 1rem 0;
+    background-color: #0063EC;
+}
+
+.amount_group {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.input_convert_group {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.from_group {
+    margin-right: 20px;
+}
+
+.change_group {
+    margin-right: 20px;
+    margin-top: 2rem;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.to_group {
+
+}
+
+.from_money {
+    margin-left: 10px;
+    height:50px;
+    border-radius: 10px;
+    border:none;
+    outline: none;
+    border: 2px solid #ffffff;
+}
+
+.to_money {
+    margin-left: 10px;
+    height:50px;
+    border-radius: 10px;
+    border:none;
+    outline: none;
+    border: 2px solid #ffffff;
+}
+
+.input_convert {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height:50px;
+    border-radius: 10px;
+    font-size:1.1rem;
+    border:none;
+    outline: none;
+    border: 2px solid #ffffff;
+}
+
+.label_convert {
+    margin-right: 10px;
+    font-size:1.1rem;
+    /* color: #707070; */
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.convert_group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    height: 50px;
+
+}
+
+.convert_res {
+    font-size: 1.5rem;
+    /* color: #707070; */
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.convert_res_group {
+    margin-left: 1rem;
+}
+
+.country_from {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.country_to {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input_amount{
+    padding-left: 10px;
+    border: 2px solid #ffffff;
+}

@@ -1,0 +1,18 @@
+.gutter-row {
+    margin: 1rem 0;
+}
+
+
+.group_quote {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    max-width: 26rem;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+}
+
+.input_group_quote {
+    display: flex;
+    margin: 1rem 1rem;
+}

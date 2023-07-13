@@ -1,0 +1,155 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 600px;
+  width: 860px;
+  /* margin: auto; */
+  border-radius: 10px;
+}
+
+.header_pomodoro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 620px;
+  height: 60px;
+}
+
+.content {
+  padding: 0px 12px;
+  max-width: 620px;
+  margin: auto;
+  margin-top: 40px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  width: 100%;
+}
+
+.real_time {
+  width: 620px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content_clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.btn_group {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn_group > button {
+  height: 30px;
+}
+
+.display_time {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.display_working {
+  width: 60px;
+  height: 30px;
+  padding: 10px;
+}
+
+.display_relaxing {
+  width: 60px;
+  height: 30px;
+  padding: 10px;
+}
+
+.btn_start {
+  height: 60px;
+}
+
+.header_logo {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.img_logo {
+  width: 2.2rem;
+  margin-right: 4px;
+}
+
+.header_title {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.header_options {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.header_btn_settings {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    opacity: 0.9;
+    background: none rgba(255, 255, 255, 0.2);
+    box-shadow: none;
+    margin-left: 10px;
+    font-size: 13px;
+    padding: 8px 12px;
+    min-width: 70px;
+    border: none;
+    color: white ;
+}
+
+.img_settings {
+  width: 16px;
+  padding-right: 5px;
+}
+
+.text_setting {
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.group_setting_time {
+  padding: 15px 0;
+}
+
+.input_time {
+  border: white;
+}
+
+.timer_clock {
+  font-size: 90px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.content_realtime {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.timer_state {
+  font-size: 15px;
+  font-weight: bold;
+}
