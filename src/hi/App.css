@@ -5,5 +5,29 @@
     height: auto;
     max-width: 30rem;
     border-radius: 10px;
-    border: 2px solid #ccc;
+    background-color: #FF9240;
+    color: #FFFFA9;
 }
+
+.group_input {
+    display: flex;
+}
+
+/* .ant-checkbox-inner {
+    width: 30px !important;
+    height: 30px !important;
+  
+    &::after {
+      width: 30px !important;
+      height: 30px !important;
+    }
+} */
+
+/* .ant-checkbox {
+    font-size: 20px !important;
+}
+
+.ant-checkbox-checked {
+    width: 30px !important;
+    height: 30px !important;
+} */

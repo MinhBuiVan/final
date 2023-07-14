@@ -1,6 +1,9 @@
 import { useState } from 'react'
 import './App.css'
 import { useEffect } from 'react';
+import { Typography } from 'antd';
+
+const {Title} = Typography
 
 const workTime = 10;
 const breakTime = 5;
@@ -62,7 +65,13 @@ function App() {
       <div className='header_pomodoro'>
         <span className='header_logo'>
           <img className='img_logo' src='https://pomofocus.io/images/icon-white2.png'></img>
-          <span className='header_title'>Pomodoro</span>
+          <Title 
+            style={{
+              color: '#ffffff',
+              fontWeight: 'bold',
+              marginBottom: 0
+            }}
+          >Pomodoro</Title>
         </span>
       </div>
 

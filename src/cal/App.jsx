@@ -2,8 +2,10 @@ import { useState } from "react";
 import Button from "./Button";
 import "./App.css";
 import Input from "./Input";
-import { Image } from "antd";
+import { Image, Typography } from "antd";
 import calculatorsvg from '../assets/calculator.png'
+
+const {Title} = Typography;
 
 function Calculator() {
   const [input, setInput] = useState("");
@@ -85,7 +87,13 @@ function Calculator() {
       <div className="App">
         <div className="cal_parent">
           <div className="cal_header">
-            <h1 className="cal_title">Calculator</h1>
+            <Title 
+              className="cal_title"
+              style={{
+                color: '#707070'
+              }}
+              level={1}
+            >Calculator</Title>
             <Image 
               width={80}
               src={calculatorsvg}

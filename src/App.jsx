@@ -142,6 +142,7 @@ const App = () => {
               boxShadow: 'rgba(0, 0, 0, 0.02) 0px 2px 2px, rgba(0, 0, 0, 0.03) 0px 1px 0px',
               display: 'flex',
               alignItems: 'center',
+              padding: '0 20px'
             }}
           >
             <Button 

@@ -1,7 +1,9 @@
 import { useState, useEffect } from 'react';
-import { Image } from 'antd';
+import { Image, Typography } from 'antd';
 import './style.css';
 import chessboardsvg from '../assets/chessboard.png'
+
+const { Title } = Typography;
 
 function ChessBoard() {
   const [num, setNum] = useState();
@@ -63,12 +65,19 @@ function ChessBoard() {
     <div className='wrapper_chessboard'>
       <div className='content_chess'>
         <div className='chess_header'>
-          <h1 className='chess_title'>Chess Board</h1>
-          <Image
+          <Title 
+            style={{
+              color: '#ffffff'
+            }}
+            level={1}
+          >
+            Chess Board
+          </Title>
+          {/* <Image
               width={80}
               src={chessboardsvg}
               preview={false}
-          />
+          /> */}
         </div>
         <div className='group_choose_number'>
           <span className='choose_number_text'>Choose a number</span>

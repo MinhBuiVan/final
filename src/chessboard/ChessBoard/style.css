@@ -25,7 +25,7 @@ input {
     font-size:1.1rem;
     border:none;
     outline: none;
-    border: 2px solid #707070;
+    border: 2px solid #ffffff;
 }
 
 .input {
@@ -40,8 +40,8 @@ input {
     border-radius: 10px;
     margin-left: 10px;
     font-weight: bold;
-    border: 2px solid #707070;
-    color: #848580;
+    border: 2px solid #ffffff;
+    color: #38858a;
 }
 
 .chess_btn:hover {
@@ -57,7 +57,7 @@ input {
     text-align: center;
     font-size: 30px;
     margin-left: 20px;
-    color: #848580;
+    color: #ffffff;
 }
 
 .group_choose_number {
@@ -71,7 +71,7 @@ input {
     padding-right: 5px;
     font-size: 15px;
     font-weight: bold;
-    color: #848580;
+    color: #ffffff;
 }
 
 .group_choose_option {
@@ -110,7 +110,7 @@ input {
     width: 680px;
     height: 330px;
     font-size: 14px;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: #38858a;
     border: 2px solid #ccc;
     margin-bottom: 10px;
 }
@@ -120,3 +120,13 @@ input {
     flex-direction: column;
     align-items: center;
 } */
+
+.group_check {
+    display: flex;
+    justify-content: space-between;
+}
+
+.group_title {
+    display: flex;
+    justify-content: space-around;
+}

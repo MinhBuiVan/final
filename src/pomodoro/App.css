@@ -137,6 +137,10 @@
   border: white;
 }
 
+.input_time::placeholder {
+  margin-left: 2rem;
+}
+
 .timer_clock {
   font-size: 90px;
   font-weight: bold;

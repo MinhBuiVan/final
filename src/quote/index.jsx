@@ -1,14 +1,19 @@
 import { useState, useEffect } from 'react';
 import "./App.css"
-import { Row, Col, Typography, Input, Button, Card } from 'antd';
+import { Row, Col, Typography, Input, Button, Card, notification } from 'antd';
 
 const { Title } = Typography;
 function App() {
   const [quotes, setQuotes] = useState([]);
   const [numberOfQuote, setnumberOfQuote] = useState('');
+  const [Fetch, setFetch] = useState(false);
 
   useEffect(() => {
-    fetchQuotes();
+    if (Fetch) {
+      fetchQuotes();
+    } else {
+      setFetch(true);
+    }
   }, []);
 
   const changeNum = () => {
@@ -17,6 +22,15 @@ function App() {
       setnumberOfQuote(num);
       fetchQuotes();
     }
+  };
+
+
+  const openNotificationWithIcon = () => {
+    notification.warning({
+      message: 'Notification',
+      description:
+        'Get errors to get the quotes. Try it next times',
+    });
   };
 
   const fetchQuotes = async () => {
@@ -36,6 +50,7 @@ function App() {
       }
     } catch (error) {
       console.error('Error fetching quotes:', error);
+      openNotificationWithIcon();
     }
   };
 
@@ -43,7 +58,7 @@ function App() {
   return (
     <div className="wrapper_quote">
       <Title
-        level={2}
+        level={1}
         style={{
           color: '#848580',
         }}
@@ -55,7 +70,7 @@ function App() {
           level={5}
           style={{
             marginLeft: '1rem',
-            color: '#848580',
+            color: '#FFFFA9',
           }}
         >
           Enter a Number
@@ -69,14 +84,17 @@ function App() {
               maxWidth: '20rem',
               fontWeight: 'bold'
             }}
+            defaultValue={0}
           />
           <Button 
             type="primary" 
             onClick={changeNum}
             style={{
               height: 50,
-              backgroundColor: '#FF9240',
               marginLeft: '1rem',
+              backgroundColor: '#ffffff',
+              color: '#FF9240',
+              fontWeight: 'bold'
             }}
           >
             Click

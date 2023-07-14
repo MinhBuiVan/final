@@ -2,7 +2,6 @@
     margin: 1rem 0;
 }
 
-
 .group_quote {
     display: flex;
     flex-direction: column;
@@ -10,6 +9,7 @@
     max-width: 26rem;
     border-radius: 10px;
     border: 2px solid #ccc;
+    background-color: #FF9240;
 }
 
 .input_group_quote {

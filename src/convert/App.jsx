@@ -117,7 +117,7 @@ function App() {
   return (
     <div className='wrapper_convert'>
       <Title 
-        level={2}
+        level={1}
         style={{
           // color: '#848580',
           color: '#ffffff',
